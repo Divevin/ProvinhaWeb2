@@ -1,0 +1,67 @@
+.barra{
+  display: flex;
+  justify-content: space-between; /* Distribui os elementos igualmente ao longo do espaço horizontal */
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+header{
+background-color: var(--verde-escuro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20;
+}
+
+.logo-container {
+    border-radius: 100%;
+    width: 100px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: left; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border: 2px solid black;
+   
+    
+}
+.Logo1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.menu li {
+    margin-right:  10px;
+  }
+
+  .menu  a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor ao passar o mouse */
+  }
+
+  .menu a:hover {
+    background-color: #1e4b20;
+  }

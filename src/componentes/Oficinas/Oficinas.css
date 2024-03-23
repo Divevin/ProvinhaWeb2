@@ -1,0 +1,61 @@
+#oficinas{
+    background-color: rgb(221, 226, 231);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Container2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.Foto{
+    border-radius: 100%;
+    width: 100px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: left; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border: 2px solid black;
+}
+
+.Container2 button{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Container2 button:hover{
+    background-color: #292a2b;
+}
+
+.Boora2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 500px;
+    padding-left: 100px;
+    
+}
+
+.Boora{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 100px;
+    
+}

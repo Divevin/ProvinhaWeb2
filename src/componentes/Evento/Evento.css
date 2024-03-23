@@ -1,0 +1,100 @@
+#evento{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   flex-direction: column;
+    background-color: rgb(221, 226, 231);
+}
+
+.chama{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.np{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+
+.chama p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: none;
+}
+
+.opicoes{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+}
+
+.opicoes p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: none;
+}
+
+.asfotos{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+
+
+.foto1{
+    width: 200px;
+    height: 200px;
+}
+.foto2{
+    width: 200px;
+    height: 200px;
+}
+.foto3{
+    width: 200px;
+    height: 200px;
+}
+
+.foto4{
+    width: 100px;
+    height: 100px;
+    margin-right:  10px;
+    padding: 8px 12px;
+}
+
+.opicoes button{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.opicoes button:hover{
+    background-color: #292a2b;
+}
+
+.parceiras picture{
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   align-items: center;
+
+}
+
+.parceiras {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}

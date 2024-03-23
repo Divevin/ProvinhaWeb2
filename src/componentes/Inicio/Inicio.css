@@ -1,0 +1,56 @@
+#inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .Chama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+  }
+  
+  .Chama h1 {
+    font-size: 36px;
+    font-weight: bold;
+
+  }
+  
+  .Chama p {
+    font-size: 24px;
+
+  }
+  
+  .Chama button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .Chama button:hover {
+    background-color: #292a2b;
+  }
+  
+  .fotinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fotinha img {
+    width: 714px;
+    height: 397px;
+  }

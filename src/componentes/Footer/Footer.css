@@ -1,0 +1,36 @@
+#footer{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.barrinha{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(76, 77, 78);
+    padding-left: 343px;
+    padding-right: 343px;
+    
+}
+
+.final{
+    width: 100%;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+.final h3{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
